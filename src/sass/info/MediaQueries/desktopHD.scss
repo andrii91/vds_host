@@ -1,0 +1,12 @@
+@import '../../mq';
+
+@media #{$desktopHD} {
+  @import '../desktop';
+
+  & {
+    .server_info {
+      background-size: cover;
+      padding-top: 68px;
+    }
+  }
+}

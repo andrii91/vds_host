@@ -1,0 +1,56 @@
+@import '../../mq';
+
+@media #{$tabletPortrait} {
+  @import '../mobile';
+
+  & {
+    .head-item h1 {
+      color: #fff;
+      font-size: 45px;
+      font-weight: 800;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 69px;
+      margin-bottom: 30px;
+    }
+
+    .head-item p,
+    .order-btn {
+      font-size: 20px;
+      font-style: normal;
+      letter-spacing: normal;
+    }
+
+    .server-btn {
+      max-width: 276px;
+    }
+
+    .tariff-item {
+      display: inline-block;
+      vertical-align: top;
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .tariffs-items {
+      text-align: center;
+    }
+
+    .advantages-list {}
+
+    .advantages-list li {
+      max-width: 100%;
+    }
+
+    .footer p {
+      text-align: right;
+      margin-top: 0;
+    }
+
+    .footer p,
+    .social-title {
+      font-size: 11px;
+    }
+  }
+}
